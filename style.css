@@ -1,0 +1,46 @@
+/* Configuração da div no geral*/
+div {
+    display: inline-block;
+    border: 1px solid white;
+    width: 200px;
+    height: 200px;
+}
+
+/*Config. dos blocos vermelhos*/
+.vermelho{
+    background-color: red;
+}
+
+/*Config. dos blocos azuis*/
+.azul{
+    background-color: blue;
+}
+
+/*Config. dos blocos verdes*/
+.verde{
+    background-color: green;
+}
+
+/*Config. dos blocos amarelos*/
+.amarelo{
+    background-color: yellow;
+}
+
+/*Borda preta nos blocos vermelhos de canto*/
+#borderBlack{
+    border: 1px solid black;
+}
+
+/*Centralização dos elementos*/
+section{
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+}
